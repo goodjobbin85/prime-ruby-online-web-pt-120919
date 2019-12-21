@@ -9,7 +9,7 @@ def prime?(number)
       if num % n == 0
       count += 1 
       end
-      i += 1
+      n += 1
     end
   end 
     
