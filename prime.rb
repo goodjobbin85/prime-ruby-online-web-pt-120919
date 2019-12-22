@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   count = 0 
-  if number == 0 
+  if number <= 0 
     puts "0 is not prime" 
   elsif number < 0 
     false 
