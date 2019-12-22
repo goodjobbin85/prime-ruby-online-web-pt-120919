@@ -3,6 +3,9 @@ def prime?(number)
   count = 0 
   if number == 0 
     puts "0 is not prime" 
+  elsif number < 0 
+    false 
+    
   else 
     n = 2 
     while n < number
