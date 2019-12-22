@@ -2,7 +2,7 @@
 def prime?(number)
   count = 0 
   if number <= 0 
-    false 
+    return false 
   else 
     n = 2 
     while n < number
