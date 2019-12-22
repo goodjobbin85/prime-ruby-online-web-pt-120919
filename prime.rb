@@ -13,7 +13,7 @@ def prime?(number)
     end
   end 
   
-  if count > 1 
+  if count > 0
     false 
   else 
     true 
