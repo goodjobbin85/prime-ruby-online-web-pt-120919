@@ -19,7 +19,7 @@ def prime?(number)
     true 
   end
 end
-puts prime?(-8)
+puts prime?(-1)
 
 =begin 
 count=0
