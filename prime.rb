@@ -6,14 +6,14 @@ def prime?(number)
   else 
     n = 2 
     while n < number
-      if num % n == 0
-      count += 1 
+      if number % n == 0
+        count += 1 
       end
       n += 1
     end
   end 
     
-end 
+
 
 =begin 
 count=0
