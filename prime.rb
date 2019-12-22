@@ -12,7 +12,13 @@ def prime?(number)
       n += 1
     end
   end 
-    
+  
+  if count > 1 
+    false 
+  else 
+    true 
+  end
+end
 
 
 =begin 
